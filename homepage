@@ -1,0 +1,315 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+<style type="text/css">
+	.topborder{
+		background-color: #394b71;
+		height: 30px;
+		width: 1000px;
+		border-radius: 6px;
+	}
+	.width{
+		width: 1000px;
+	}
+	.box{
+		height: 30px;
+		width: 192px;
+		float: left;
+		margin-right: 10px;
+		background-color: white;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.box1{
+		height: 30px;
+		width: 192px;
+		float: left;
+		background-color: white;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.box3{
+		width: 100px;
+		height: 30px;
+		background-color: white;
+		margin-right: 15px;
+		float: left;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.box4{
+		width: 770px;
+		height: 30px;
+		background-color: white;
+		float: left;
+		margin-right: 15px;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.box5{
+		width: 100px;
+		height: 30px;
+		background-color: white;
+		float: left;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.alert{
+		width: 1000px;
+		height: 30px;
+		background-color: white;
+		border-radius: 6px;
+		font-family: calibri;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		}
+	.notification{
+		width: 200px;
+		height: 400px;
+		background-color: white;
+		margin-right: 15px;
+		float: left;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.apply{
+		width: 570px;
+		height: 400px;
+		background-color: white;
+		float: left;
+		margin-right: 15px;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.dates{
+		width: 200px;
+		height: 400px;
+		background-color: white;
+		float: left;
+		border-radius: 6px;
+		font-family: calibri;
+	}
+	.livenotification{
+		text-align: center;
+		background-color: #b62a26;
+		color: white;
+		border-radius: 6px;
+		font-family: calibri;
+		padding: 1px;
+		font-weight: bold;
+
+
+	}
+	.Download{
+		text-decoration: underline;
+		border-radius: 6px;
+		font-family: calibri;
+		
+
+	}
+	.bottom{
+		background-color: #555555;
+		width: 1000px;
+		height: 100px;
+		border-radius: 6px;
+		border-style: solid;
+		border-width: 1px;
+		font-family: calibri;
+	}
+	.end{
+		background-color: #b62a26;
+		width: 1000px;
+		color: white;
+		height: 50px;
+		border-radius: 6px;
+		font-family: calibri;
+		padding: 1px
+
+
+	}
+	.circle{
+		color: #b62a26;
+		font-family: calibri;
+		text-decoration: none;
+	}
+	.circle:hover{
+		color: black;
+	}
+	.stepsborder{
+		border: solid 1px grey;
+		height: 200px;
+		border-radius: 6px;
+		padding: 10px;
+	}
+	.stage{
+		background-color: yellow;
+		font-weight: bold;
+		color: #b62a26;
+		align-content: left;
+		font-family: calibri;
+
+
+	}
+	.bottombox{
+		width: 235px;
+		float: left;
+		font-family: calibri;
+		text-align: left;
+		padding-left: 10px;
+	}
+	.link{
+		color: white;
+	
+	}
+	.link:hover{
+		color: black;
+	}
+	
+	
+</style>
+</head>
+<body style="background-color: #E6E6E6">
+<div align="center">
+	<div style="width: 1000px">
+<div class="topborder"></div>
+<div class="width">
+	<img src="Main_Header.jpg">
+</div>
+<div class="topborder"></div>
+<div class="width" style="text-align: center;">
+	<div>
+		<div class="box"> Notification</div>
+		<div class="box"> Stage 1.Registration</div>
+		<div class="box"> Stage 2.Fee payment</div>
+		<div class="box"> Stage 3.Apply online</div>
+		<div class="box1"> Results</div>
+	</div>
+</div>
+<div style="clear: both;"></div>
+<div style="height: 15px"></div>
+<div class="width" style="text-align: center;">
+	<div class="box3"> Help Desk</div>
+	<div class="box4"> Offline Payment Offices</div>
+	<div class="box5"> FAQ</div>
+</div>
+<div style="clear: both;"></div>
+<div style="height: 15px"></div>
+
+<div class="alert">
+	
+		<span style="color: red">
+			<marquee>
+		<img src="new.gif">
+
+		Candidates whose fee payment is not generated (or) Registered but not applied can submit their applications from 07.11.2020 to 09.11.2020.
+</marquee>
+	</span>
+	
+</div>
+
+<div style="clear: both;"></div>
+<div style="height: 15px;"></div>
+<div class="width" style="background-color: #778dbd; height: 135px; width: 1000px;  text-align: left; border-radius: 6px;">
+	<span>
+		<b>Disclaimer:</b>
+		<br><br>
+		1.Department of Posts doesnot make any phone calls/SMSs to the candidates for depositing money.Selected candidates will get SMS to their registered mobiles.
+		<br><br>
+		2.Candidates are advised in their own interest to submit their application well in advance to avoid last minute rush and server connectivity problems.
+	</span>
+</div>
+<div style="height: 15px"></div>
+<div class="notification">
+<div class="livenotification">Live Notifications</div> <br>
+<div>
+<span class="Download">Download Notification</span>
+ <a class="circle" href="Notifications/HimachalPradesh-08_Cycle3.pdf" target="_blank">Himachal Pradesh (634 Posts)</a>
+<p class="livenotification"> Results Under Process</p>
+ <a class="circle">Rajasthan(3262 posts)</a>
+ <a class="circle">Rajasthan(3262 posts)</a>
+ <a class="circle">Rajasthan(3262 posts)</a>
+</div>
+<div style="height: 15px"></div>
+<div class="livenotification">Results Released</div><br>
+<a class="circle" href="#">Rajasthan(3262 posts)</a><br>
+ <a class="circle" href="#">Rajasthan(3262 posts)</a>
+</div>
+<div class="apply">
+<div class="livenotification"> Steps to apply</div>
+<div style="height: 2px;background-color: white"></div>	
+<div class="stepsborder">
+	<span>
+<span class="stage">Stage:1</span>	
+<a href="https://indiapostgdsonline.in/gdsonlinec3p3/Registration_A.aspx" alt="Registration" target="_blank"> Registration</a>
+Initially candidate has to register in the Registration module once per cycle and obtain unique registration number
+<br>
+<span class="stage">Stage:2</span>
+<a href="https://appost.in/onlinefee/" target="_blank">Fee Payment</a>
+UR/OBC/EWS Male/Trans-man need to make fee payment. In Case of online payment, if no confirmation is received after the deduction of amount from candidate's bank account, candidates can await upto 72 Hours for settlement.
+Offline payments can be made at any Head Post Office.
+<br>
+<span class="stage">Stage:3</span>
+<a href="https://indiapostgdsonline.in/gdsonlinec3p3/reference.aspx" target="_blank">Apply Online</a>
+<b>Step 1 .</b> Fill Application. <b>Step 2 . </b>Upload documents. <b>Step 3 .</b>Submit Post preferences. Preview and take print out.Completion of these three steps will only be treated as submission of application.
+</span>	
+</div>
+<div style="clear: both;"></div>
+<div>
+	<img src="RICT.png" height="160px" width="570px">
+</div>
+</div>
+<div class="dates">
+	<div class="livenotification"> Important Dates</div>
+
+
+</div>
+<div style="clear: both;"></div>
+
+
+
+
+
+<div style="height: 15px"></div>
+<div class="bottom" >
+	<div style="height: 15px"></div>
+	<div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/Home.aspx" target="_blank">Home</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/SiteMap.aspx" target="_blank">SiteMap</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/CEPT.aspx" target="_blank">CEPT</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/PrivacyPolicy.aspx" target="_blank">PricacyPolicy</a></div>
+	</div>
+	<br>
+	<div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/AboutUs.aspx" target="_blank">About US</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/RTI.aspx" target="_blank">RTI</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/FAQ.html" target="_blank">FAQ</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/TermsAndConditions.aspx" target="_blank">Tearms & Conditions</a></div>
+	</div>
+	<br>
+	<div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/ContactUs.aspx" target="_blank">Contact US</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/EmployeeLogin.aspx" target="_blank">Employee Corner</a></div>
+	<div class="bottombox"><a class="link" href="https://appost.in/gdsonline/Help.aspx" target="_blank">Help</a></div>
+	</div>
+
+
+
+
+
+
+
+
+	
+</div>
+<div style="height: 15px"></div>
+<div align="center" class="end">This website belongs to Department of Posts, Ministry of communication <br>
+Site is best viewd in Google Chrome, Internet Explorer 9.0 and above at 1024 x 768 resolution</div>
+
+
+</div>
+</div>
+
+</body>
+</html>
