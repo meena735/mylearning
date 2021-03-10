@@ -1,0 +1,47 @@
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="button.aspx.vb" Inherits="button" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>buttongrid</title>
+    <style>
+    .page
+    {
+    	background-color:White;
+    	width:1024px;
+    	height:auto;
+    	}
+    
+    
+    </style>
+</head>
+<body style="text-align:center;background-color:Aqua">
+    <form id="form1" runat="server">
+    <div class="page">
+    <div style="height:auto; width:1024px;"><img src="Images/IndiapostLogo.jpg" /></div>
+    <div style="background-color:Maroon;height:3px;"></div>
+    <div style="background-color:White;height:5px;"></div>    
+    <div style="height:30px;background-color:Maroon;color:White;font-weight:300;font-size:x-large">DOP-DBT Disbursement Portal</div>
+    <div style="background-color:White;height:5px;"></div>
+    <div style="background-color:Maroon;height:3px;"></div>
+    <div style="background-color:White;height:50px;"></div>
+    <div>
+    <div style="width:300px;height:auto;background-color:#aaa;float:left;display:table-cell">
+    <div style="width:200px;height:30px;background-color:Maroon;color:White;padding-top:5px;display:inline-table" align:"center">MIS Links </div>
+     
+                    
+      
+                    
+    </div>
+    
+    <div style="width:724px;height:auto;background-color:#bbb;float:left"></div>
+    
+    
+    
+    
+    
+    </div>
+    </div>
+    </form></body>
+</html>
