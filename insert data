@@ -1,0 +1,168 @@
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="test.aspx.vb" Inherits="test" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <style type="text/css">
+        .page
+        {
+            background-color: White;
+            width: 1024px;
+            height: auto;
+        }
+        .button
+        {
+            height: 30px;
+            width: 200px;
+            background-color: White;
+            color: Maroon;
+        }
+        .button_active
+        {
+            height: 30px;
+            width: 200px;
+            background-color: Maroon;
+            color: White;
+        }
+    </style>
+</head>
+<body style="background-color: Aqua;">
+    <form id="form1" runat="server">
+    <div align="center">
+        <div class="page">
+            <div style="height: auto; width: 1024px;">
+                <img src="Images/IndiapostLogo.jpg" /></div>
+            <div style="background-color: Maroon; height: 3px;">
+            </div>
+            <div style="background-color: White; height: 5px;">
+            </div>
+            <div style="height: 30px; background-color: Maroon; color: White; font-weight: 300;
+                font-size: x-large">
+                DOP-DBT Disbursement Portal</div>
+            <div style="background-color: White; height: 5px;">
+            </div>
+            <div style="background-color: Maroon; height: 3px;">
+            </div>
+            <div style="background-color: White; height: 50px;">
+            </div>
+            <div>
+                <div style="height: auto; width: 300px; float: left; background-color: #aaa; text-align: center">
+                    <div align="center">
+                        <div style="height: 30px; width: 200px; background-color: Maroon; color: White; text-align: center">
+                            MIS Links
+                        </div>
+                    </div>
+                    <div>
+                        <asp:Button ID="Button1" runat="server" Text="Officewise LOT" CssClass="button" />
+                    </div>
+                    <div>
+                        <asp:Button ID="Button2" runat="server" Text="Consolodated Payments" CssClass="button" />
+                    </div>
+                    <div>
+                        <asp:Button ID="Button3" runat="server" Text="Passbook View" CssClass="button_active" />
+                    </div>
+                </div>
+                <div style="height: auto; width: 724px; float: left; background-color: #bbb;">
+                    <div>
+                        <asp:DropDownList ID="DropDownList1" runat="server" Height="30px" Width="200px">
+                            <asp:ListItem>Select Circle</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <div style="height: 10px;">
+                    </div>
+                    <div>
+                        <asp:Button ID="Button4" runat="server" Text="Submit" />
+                    </div>
+                    <div style="height: 10px;">
+                    </div>
+                    <div style="width: 724px;">
+                        <div style="width: 362px; float: left; text-align: right">
+                            Name</div>
+                        <div style="width: 352px; float: left; text-align: left; padding-left: 10px">
+                            <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                    <div style="width: 724px;">
+                        <div style="width: 362px; float: left; text-align: right">
+                            DOB</div>
+                        <div style="width: 352px; float: left; text-align: left; padding-left: 10px">
+                            <asp:TextBox ID="DOB" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                    <div style="width: 724px;">
+                        <div style="width: 362px; float: left; text-align: right">
+                            Gender</div>
+                        <div style="width: 352px; float: left; text-align: left; padding-left: 10px">
+                            <asp:DropDownList ID="gender" runat="server">
+                                <asp:ListItem Value="0">Select Gender</asp:ListItem>
+                                <asp:ListItem Value="1">Female</asp:ListItem>
+                                <asp:ListItem Value="2">Male</asp:ListItem>
+                                <asp:ListItem Value="3">Trans Men</asp:ListItem>
+                                <asp:ListItem Value="4">Trans Women</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                    <div style="width: 724px">
+                        <div style="width: 362px; float: left; text-align: right">
+                            Mobile Number
+                        </div>
+                        <div style="width: 352px; float: left; text-align: left; padding-left: 10px">
+                            <asp:TextBox ID="mobile" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                    <div style="width: 724px">
+                        <div style="width: 362px; float: left; text-align: right">
+                            email ID
+                        </div>
+                        <div style="width: 352px; float: left; text-align: left; padding-left: 10px">
+                            <asp:TextBox ID="mailid" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                    <div style="width: 724px">
+                        <div style="width: 362px; float: left; text-align: right">
+                            Category
+                        </div>
+                        <div style="width: 352px; padding-left: 10px; text-align: left; float: left">
+                            <asp:DropDownList ID="category" runat="server">
+                                <asp:ListItem Value="0">Select Category</asp:ListItem>
+                                <asp:ListItem Value="1">UR</asp:ListItem>
+                                <asp:ListItem Value="2">OBC</asp:ListItem>
+                                <asp:ListItem Value="3">SC</asp:ListItem>
+                                <asp:ListItem Value="4">ST</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                    <div style="width: 724px">
+                        <div style="width: 362px; float: left; text-align: right">
+                            SSC Hallticket Number</div>
+                        <div style="width: 352px; padding-left: 10px; text-align: left; float: left">
+                            <asp:TextBox ID="sscnumber" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                    <div style="width: 724px">
+                        <asp:Button ID="submit" runat="server" Text="submit" />
+                    </div>
+                    <div style="width: 724px; height: 30px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
