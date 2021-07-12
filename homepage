@@ -1,0 +1,74 @@
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="homepage.aspx.vb" Inherits="homepage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body style="background-color:#E6E6E6">
+    <form id="form1" runat="server">
+    <div align="center">
+    <div style="background-color:#394b71;height:30px;width:1000px;"></div>
+    <div>
+    <img src="Images/heading.jpg" alt="alt" />
+    </div>
+    <div style="background-color:#394b71;height:30px;width:1000px;"></div>
+    
+    <div style="height:20px;width:1000px;"></div>
+    <div style="height:30px;width:1000px;color:Maroon;background-color:White"> 
+    <marquee>
+    <img src="Images/new.gif" />
+    Announcements scroll
+    </marquee>
+      </div>
+    <div style="height:20px;width:1000px;"></div>
+    <div "align=center">
+    <div style="width:1000px">
+    <div style="height:auto;width:350px;float:left;background-color:White;">
+    <div style="height:auto;width:350px;font-family:Calibri">
+    Click here to download
+    <a href="" style="font-weight:bold;text-decoration:none;color:Maroon;font-family:Calibri">Notification</a>
+    <div style="height:20px;width:350px;background-color:#E6E6E6"></div>
+    
+    <div style="height:auto;width:350px;font-family:Calibri;font-weight:bold">Important Dates</div>
+   <div style="height:10px;width:350px;"></div>
+    <div style="height:auto;width:175px;float:left;text-align:right"> Start Date:</div> 
+    <div style="height:auto;width:165px;float:left;text-align:left;padding-left:10px;font-family:Calibri;color:Red;font-weight:bold">10.08.2021</div>
+    <div style="height:20px;width:350px;"></div>
+    <div style="height:auto;width:175px;float:left;text-align:right"> End Date:</div> 
+    <div style="height:auto;width:165px;float:left;text-align:left;padding-left:10px;font-family:Calibri;color:Red;font-weight:bold">10.09.2021</div>
+       
+    
+    </div>
+    
+    </div>
+    
+    
+    <div style="height:30px;width:50px;float:left;background-color:#E6E6E6"></div>
+    
+    
+    
+    
+    <div style="height:30px;width:600px;float:left;background-color:White"></div>
+    
+    
+    
+    
+    
+    </div>
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    </div>
+    </div>
+    </form>
+</body>
+</html>
