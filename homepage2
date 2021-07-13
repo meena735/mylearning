@@ -1,0 +1,79 @@
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="homepage2.aspx.vb" Inherits="homepage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style>
+body {
+  background-image: url('Images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div align="center">
+
+        <div style="width:1000px;height:100px;">  
+        <div style="width:200px;height:100px;float:left;">
+            <img src="Images/logo.png" alt="logo" style="width:200px;height:100px;float:left;"/>
+        </div>
+        <div style="width:800px;height:100px;float:left;">
+            <div style="width:800px;height:45px;float:left;font-family:Calibri;font-weight:900;color:maroon;padding-top:10px;">Telangana Circle - Sports quota Recruitment</div>
+            <div style="width:800px;height:5px;float:left;"></div>
+            <div style="width:800px;height:40px;float:left;">
+                <marquee>Announcement Scroll</marquee>
+            </div>
+        </div>
+
+        </div>
+
+        <div style="clear:both"></div>
+        <div style="height:20px;width:1000px;"></div>
+
+        <div style="width:1000px;height:300px">
+            <div style="width:600px;height:300px;float:left;background-color:white"></div>
+            <div style="width:20px;height:300px;float:left;"></div>
+            <div style="width:380px;height:300px;float:left;background-color:white"></div>
+        </div>
+
+        <div style="clear:both"></div>
+        <div style="height:20px;width:1000px;"></div>
+
+        <div style="width:1000px;height:300px">
+            <div style="width:290px;height:300px;float:left;background-color:white"></div>
+            <div style="width:20px;height:300px;float:left;"></div>
+            <div style="width:290px;height:300px;float:left;background-color:white"></div>
+            <div style="width:20px;height:300px;float:left;"></div>
+            <div style="width:380px;height:300px;float:left;">
+                <div style="width:380px;height:140px;background-color:white"></div>
+                <div style="width:380px;height:20px"></div>
+                <div style="width:380px;height:140px;background-color:white"></div>
+            </div>
+        </div>
+
+
+        <div style="clear:both"></div>
+        <div style="height:20px;width:1000px;"></div>
+
+        <div align="center">
+        <div style="height:50px;width:1000px;color:white;font-family:Calibri">
+
+            This website belongs to Department of Posts, Telangana Circle <br />
+            Site best viewed in Google Chrome, Internet Explorer 9.0 and above at 1024 x 768 resolution
+
+        </div>
+        </div>
+
+       
+
+
+
+    </div>
+    </form>
+</body>
+</html>
