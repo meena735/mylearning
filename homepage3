@@ -1,0 +1,201 @@
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="homepage2.aspx.vb" Inherits="homepage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <link href="CSS/homepage.css" rel="stylesheet" type="text/css" />
+    
+  <style>
+  
+body {
+  background-image: url('Images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  </style>
+    
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div align="center">
+
+        <div class="topdiv">  
+        
+        <div class="topleft">
+            <img src="Images/logo.png" alt="logo" class="toplogo"/>
+        </div>
+        <div class="topright">
+            <div class="heading"><h1>Telangana Circle - Sports quota Recruitment</h1></div>
+            <div class="headgap"></div>
+
+        </div>
+        
+
+
+        </div>
+
+        <div style="clear:both"></div>
+        
+        
+        <div class="divgap2"></div>
+        
+            <div class="toprightdown">
+                <marquee>
+                <img src="Images/new.gif" alt="" />
+                Announcement Scroll</marquee>
+            </div>
+        
+
+        <div class="middlediv">
+            <div class="middlerightdiv">
+            <div class="middle2">
+                <div class="middle2top"></div>
+                
+                <div class="applyheading">Applicaiton Procedure</div>
+                <div class="middle2top"></div>
+               <div class="middle2left">
+               <a href="" class="link">1. Registration</a>
+               </div>
+               <div class="middle2top"></div>
+               <div class="middle2left">
+               <a href="" class="link">2. Fee Payment and Sports Selection</a>
+               </div>
+               <div class="middle2top"></div>
+               <div class="middle2left">
+               <a href="" class="link">3. Upload Documents</a>
+               </div>
+               <div class="middle2top"></div>
+               <div class="middle2left">
+               <a href="" class="link">4. Print Application</a>
+               </div>
+               
+            </div>
+            
+            </div>
+            
+            <div class="middlegapdiv"></div>
+            
+            <div class="middleleftdiv">
+            <div class="middle3">
+            <div class="middle3top"></div>
+            
+            <div class="applyheading">Notification</div>
+            
+            <div class="middle3top"></div>
+            <div class="middle2left">
+            <a href="" class="link">Download Notification</a> 
+            </div>
+            <div class="middle3top"></div>
+            
+            <div class="applyheading">Important Dates</div>
+            
+             <div class="middle3top"></div>
+            
+            <div class="datesdiv"><span class="datespanclassred">Start Date:</span> 10.08.2021 </div> <br />
+            <div class="datesdiv"><span class="datespanclassred">End Date:</span> 09.09.2021 </div> <br />
+            
+            </div>
+            </div>
+            
+        </div>
+
+        <div style="clear:both"></div>
+        <div class="divgap2"></div>
+
+        <div class="bottomdiv">
+            
+            
+            <div class="divin2"> <%--3rd div start--%>
+             <div class="middle3top"></div>
+             <div class="applyheading">Forms</div>
+             <div class="middle3top"></div>
+             
+             <div class="formsdiv">
+             <div> 1. Form1 text and internationl <a href="">Form 1</a> </div><br />
+             <div> 2. Form1 text and internationl <a href="">Form 2</a> </div><br />
+             <div> 3. Form1 text and internationl <a href="">Form 3</a> </div><br />
+             <div> 4. Form1 text and internationl <a href="">Form 4</a> </div><br />
+             <div> 5. Form1 text and internationl <a href="">Form 5</a> </div>
+             </div>
+            
+            </div><%--3rd div end--%>
+            
+            
+            
+            <div class="divgap"></div>
+            <div class="divin2"><%--4ht div start--%>
+             <div class="middle3top"></div>
+             <div class="applyheading">Candidate Corner</div>
+             <div class="middle3top"></div>
+             
+             <div align="left">
+              <div class="middle2left">
+              <a href="" class="link">1. Forgot Registration</a>
+              </div>
+                <div class="middle2top"></div>
+              <div class="middle2left">
+              <a href="" class="link">2. Mobile Number Update</a>
+              </div>
+              </div>
+                         
+            
+            </div><%--4ht div end--%>
+            
+            
+            
+            <div class="divgap"></div>
+            <div class="bottometop">
+                <div class="divin1"><%--5th div start--%>
+             <div class="middle3top"></div>
+             <div class="applyheading">Helpline</div>
+             <div class="middle3top"></div>
+               
+            <div align="left"> 
+            <div class="datesdiv"><span class="datespanclassred">Email :</span> sports@gmail.com </div> <br />
+            <div class="datesdiv"><span class="datespanclassred">Phone :</span> 040-0000000 </div> <br />
+             </div>   
+             </div><%--5th div end--%>
+                
+                
+                
+                <div class="bottomrightgap"></div>
+                <div class="divin1"><%--6th div start--%>
+                 <div class="middle3top"></div>
+         <div class="applyheading">News</div><br />
+            
+        <div class="newsdiv" align="left">
+          <img src="Images/new.gif" alt="" /><span>Sports notfication released</span><br /><br />
+         <img src="Images/new.gif" alt="" /> <span>Last dates extended</span><br />
+        </div>
+                
+                </div><%--6th div end--%>
+            </div>
+        </div>
+
+
+        <div style="clear:both"></div>
+        <div class="divgap2">  </div>
+
+        <div align="center">
+        <div class="divfinal">
+
+            This website belongs to Department of Posts, Telangana Circle <br />
+            Site best viewed in Google Chrome, Internet Explorer 9.0 and above at 1024 x 768 resolution
+
+        </div>
+        </div>
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>
